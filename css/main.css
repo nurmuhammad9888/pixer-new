@@ -216,7 +216,7 @@ body{
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
-    border: 1px solid transparent;
+    border: 1.5px solid transparent;
 }
 .hero-btn-link:hover{
     border: 1.5px solid #1AAB7B;
@@ -464,7 +464,7 @@ body{
     width: 100%;
     max-width: 180px;
     margin-top: 40px;
-    border: none;
+    border: 1.5px solid transparent;
     display: inline-block;
     padding: 20px;
     background: #1AAB7B;
@@ -475,6 +475,16 @@ body{
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+}
+.send-btn:hover{
+    border: 1.5px solid #1AAB7B;
+    color: #1AAB7B;
+    background-color: transparent;
+}
+.send-btn:active{
+    background: #1AAB7B;
+    color: #FFF;
+    opacity: 0.6;
 }
 .form-input-text {
     margin-top: 24px;
@@ -516,6 +526,9 @@ body{
     font-size: 18px;
     line-height: 150%;
     color: #A1A8B7;
+}
+.footer-link-addres{
+    font-style: normal;
 }
 .footer-link:hover{
     color: #1AAB7B;
